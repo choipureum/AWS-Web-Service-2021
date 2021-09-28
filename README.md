@@ -2,4 +2,4 @@
 "Web service with spring boots and AWS" Practice code. Madeleine Project Prototype Code -> Kotlin conversion and docker addition are required.
 
 ## Architecture
-<img src="./image/architecture.JPG"></img>
+<img src="./image/archi.JPG"></img>
