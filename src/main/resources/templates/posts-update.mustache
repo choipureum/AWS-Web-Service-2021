@@ -1,0 +1,31 @@
+{{>layout/header}}
+
+<h1> 게시글 수정</h1>
+
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="id">글 번호</label>
+                <input type="text" class="form-control" value="{{post.id}}" id="id" placeholder="제목을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="title">제목</label>
+                <input type="text" class="form-control" value="{{post.title}}" id="title" placeholder="제목을 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="author"> 작성자 </label>
+                <input type="text" class="form-control" value="{{post.author}}" id="author" placeholder="작성자를 입력하세요">
+            </div>
+            <div class="form-group">
+                <label for="content"> 내용 </label>
+                <textarea class="form-control" value="{{post.content}}" id="content" placeholder="내용을 입력하세요"></textarea>
+            </div>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-update">수정 완료</button>
+        <button type="button" class="btn btn-primary" id="btn-delete">삭제</button>
+    </div>
+</div>
+
+{{>layout/footer}}
