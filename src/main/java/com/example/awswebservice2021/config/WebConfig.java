@@ -1,5 +1,6 @@
-package com.example.awswebservice2021.config.auth;
+package com.example.awswebservice2021.config;
 
+import com.example.awswebservice2021.config.auth.LoginUserArgumentResolver;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

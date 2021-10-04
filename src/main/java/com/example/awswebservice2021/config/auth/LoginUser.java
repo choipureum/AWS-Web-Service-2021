@@ -1,4 +1,4 @@
-package com.example.awswebservice2021.config.auth.dto;
+package com.example.awswebservice2021.config.auth;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

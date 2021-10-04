@@ -1,6 +1,6 @@
 package com.example.awswebservice2021.web;
 
-import com.example.awswebservice2021.config.auth.dto.LoginUser;
+import com.example.awswebservice2021.config.auth.LoginUser;
 import com.example.awswebservice2021.config.auth.dto.SessionUser;
 import com.example.awswebservice2021.service.posts.PostsService;
 import com.example.awswebservice2021.web.dto.PostsResponseDto;

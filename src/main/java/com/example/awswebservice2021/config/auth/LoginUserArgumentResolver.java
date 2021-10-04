@@ -1,6 +1,5 @@
 package com.example.awswebservice2021.config.auth;
 
-import com.example.awswebservice2021.config.auth.dto.LoginUser;
 import com.example.awswebservice2021.config.auth.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
