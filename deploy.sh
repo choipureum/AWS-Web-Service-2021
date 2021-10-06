@@ -1,11 +1,11 @@
 #!/bin/bash
 
-REPOSITORY=/home/ec2-user/app/step1    //(1)
+REPOSITORY=/home/ec2-user/app/step1
 PROJECT_NAME=AWS-Web-Service-2021
 
-cd $REPOSITORY/$PROJECT_NAME/ //(2)
+cd $REPOSITORY/$PROJECT_NAME/
 
-echo "> Git Pull" //(3)
+echo "> Git Pull"
 
 git pull
 
@@ -37,7 +37,7 @@ fi
 
 echo "> 새 애플리케이션 배포"
 
-JAR_NAME=$(ls -tr $REPOSITORY/ | grep jar | tail -n 1)  //(8)
+JAR_NAME=$(ls -tr $REPOSITORY/ | grep jar | tail -n 1)
 
 echo "> JAR Name: $JAR_NAME"
 
